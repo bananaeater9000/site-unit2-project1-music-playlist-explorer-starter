@@ -11,16 +11,205 @@
 </head>
 <body>
     <header>
-        <!-- Your header content here -->
+        <h1>Music Playlist Explorer</h1>
     </header>
 
-    <main> 
-        <!-- Your main content here -->
+    <main>
+
+        <div id="playlist-gallery">
+
+            <div class="playlist-cards">
+
+                <div class="playlist-card" onclick="openModal({title: 'Chill Vibes', imageUrl: 'assets/img/playlist.png', creator: 'DJ Smooth'})">
+                    <div class="card-image-container">
+                        <img class="card-image" src="assets/img/playlist.png" alt="Playlist cover">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="playlist-title">Chill Vibes</h3>
+                        <p class="creator-name">DJ Smooth</p>
+                        <div class="card-footer">
+                            <button class="like-button">♡</button>
+                            <span class="song-count">5</span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="playlist-card">
+                    <div class="card-image-container">
+                        <img class="card-image" src="assets/img/playlist.png" alt="Playlist cover">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="playlist-title">Playlist Title</h3>
+                        <p class="creator-name">Creator Name</p>
+                        <div class="card-footer">
+                            <button class="like-button">♡</button>
+                            <span class="song-count">5</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="playlist-card">
+                    <div class="card-image-container">
+                        <img class="card-image" src="assets/img/playlist.png" alt="Playlist cover">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="playlist-title">Playlist Title</h3>
+                        <p class="creator-name">Creator Name</p>
+                        <div class="card-footer">
+                            <button class="like-button">♡</button>
+                            <span class="song-count">5</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="playlist-card">
+                    <div class="card-image-container">
+                        <img class="card-image" src="assets/img/playlist.png" alt="Playlist cover">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="playlist-title">Playlist Title</h3>
+                        <p class="creator-name">Creator Name</p>
+                        <div class="card-footer">
+                            <button class="like-button">♡</button>
+                            <span class="song-count">5</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="playlist-card">
+                    <div class="card-image-container">
+                        <img class="card-image" src="assets/img/playlist.png" alt="Playlist cover">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="playlist-title">Playlist Title</h3>
+                        <p class="creator-name">Creator Name</p>
+                        <div class="card-footer">
+                            <button class="like-button">♡</button>
+                            <span class="song-count">5</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="playlist-card">
+                    <div class="card-image-container">
+                        <img class="card-image" src="assets/img/playlist.png" alt="Playlist cover">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="playlist-title">Playlist Title</h3>
+                        <p class="creator-name">Creator Name</p>
+                        <div class="card-footer">
+                            <button class="like-button">♡</button>
+                            <span class="song-count">5</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="playlist-card">
+                    <div class="card-image-container">
+                        <img class="card-image" src="assets/img/playlist.png" alt="Playlist cover">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="playlist-title">Playlist Title</h3>
+                        <p class="creator-name">Creator Name</p>
+                        <div class="card-footer">
+                            <button class="like-button">♡</button>
+                            <span class="song-count">5</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="playlist-card">
+                    <div class="card-image-container">
+                        <img class="card-image" src="assets/img/playlist.png" alt="Playlist cover">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="playlist-title">Playlist Title</h3>
+                        <p class="creator-name">Creator Name</p>
+                        <div class="card-footer">
+                            <button class="like-button">♡</button>
+                            <span class="song-count">5</span>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
     </main>
 
     <footer>
         <!-- Your footer content here -->
     </footer>
+
+    <div class="modal-overlay" id="modal-overlay">
+        <div class="modal-content">
+            <button class="close-button">&times;</button>
+            <div class="modal-header">
+                <div class="modal-playlist-info">
+                    <img class="modal-playlist-image" src="assets/img/playlist.png" alt="Playlist cover">
+                    <div class="modal-playlist-details">
+                        <h2 class="modal-playlist-title">Playlist Title</h2>
+                        <p class="modal-creator-name">Creator Name</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal-body">
+
+                <div class="song-list">
+                    <div class="song-item">
+                        <img class="song-image" src="assets/img/song.png" alt="Song cover">
+                        <div class="song-info">
+                            <p class="song-title">Song Title</p>
+                            <p class="song-artist">Artist Name</p>
+                            <p class="song-album">Album Name</p>
+                        </div>
+                        <span class="song-duration">0:00</span>
+                    </div>
+
+                    <div class="song-item">
+                        <img class="song-image" src="assets/img/song.png" alt="Song cover">
+                        <div class="song-info">
+                            <p class="song-title">Song Title</p>
+                            <p class="song-artist">Artist Name</p>
+                            <p class="song-album">Album Name</p>
+                        </div>
+                        <span class="song-duration">0:00</span>
+                    </div>
+
+                    <div class="song-item">
+                        <img class="song-image" src="assets/img/song.png" alt="Song cover">
+                        <div class="song-info">
+                            <p class="song-title">Song Title</p>
+                            <p class="song-artist">Artist Name</p>
+                            <p class="song-album">Album Name</p>
+                        </div>
+                        <span class="song-duration">0:00</span>
+                    </div>
+
+                    <div class="song-item">
+                        <img class="song-image" src="assets/img/song.png" alt="Song cover">
+                        <div class="song-info">
+                            <p class="song-title">Song Title</p>
+                            <p class="song-artist">Artist Name</p>
+                            <p class="song-album">Album Name</p>
+                        </div>
+                        <span class="song-duration">0:00</span>
+                    </div>
+                    
+                    <div class="song-item">
+                        <img class="song-image" src="assets/img/song.png" alt="Song cover">
+                        <div class="song-info">
+                            <p class="song-title">Song Title</p>
+                            <p class="song-artist">Artist Name</p>
+                            <p class="song-album">Album Name</p>
+                        </div>
+                        <span class="song-duration">0:00</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="data/data.js"></script>
     <script src="script.js"></script>
 </body>

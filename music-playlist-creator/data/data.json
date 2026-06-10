@@ -1,0 +1,386 @@
+[
+  {
+    "id": 1,
+    "title": "Chill Vibes",
+    "creator": "DJ Smooth",
+    "imageUrl": "assets/img/playlist.png",
+    "songs": [
+      {
+        "id": 101,
+        "title": "Sunset Dreams",
+        "artist": "The Mellow Tones",
+        "album": "Evening Breeze",
+        "imageUrl": "assets/img/song.png",
+        "duration": "3:45"
+      },
+      {
+        "id": 102,
+        "title": "Coffee Shop Acoustic",
+        "artist": "Indie Strings",
+        "album": "Unplugged Sessions",
+        "imageUrl": "assets/img/song.png",
+        "duration": "4:12"
+      },
+      {
+        "id": 103,
+        "title": "Rainy Day Jazz",
+        "artist": "The Smooth Quartet",
+        "album": "Blue Notes",
+        "imageUrl": "assets/img/song.png",
+        "duration": "5:20"
+      },
+      {
+        "id": 104,
+        "title": "Midnight Lo-Fi",
+        "artist": "Beat Maker 3000",
+        "album": "Chill Beats Vol. 2",
+        "imageUrl": "assets/img/song.png",
+        "duration": "3:58"
+      },
+      {
+        "id": 105,
+        "title": "Ocean Waves",
+        "artist": "Nature Sounds Collective",
+        "album": "Ambient Dreams",
+        "imageUrl": "assets/img/song.png",
+        "duration": "6:30"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Late Night Beats",
+    "creator": "The Night Owl",
+    "imageUrl": "assets/img/playlist.png",
+    "songs": [
+      {
+        "id": 201,
+        "title": "After Hours",
+        "artist": "DJ Nocturnal",
+        "album": "Night Shift",
+        "imageUrl": "assets/img/song.png",
+        "duration": "4:22"
+      },
+      {
+        "id": 202,
+        "title": "City Lights",
+        "artist": "Urban Soundscape",
+        "album": "Metropolitan",
+        "imageUrl": "assets/img/song.png",
+        "duration": "3:55"
+      },
+      {
+        "id": 203,
+        "title": "Dark Electro",
+        "artist": "Synth Masters",
+        "album": "Neon Nights",
+        "imageUrl": "assets/img/song.png",
+        "duration": "5:10"
+      },
+      {
+        "id": 204,
+        "title": "Moonlight Groove",
+        "artist": "The Night Riders",
+        "album": "Lunar Eclipse",
+        "imageUrl": "assets/img/song.png",
+        "duration": "4:45"
+      },
+      {
+        "id": 205,
+        "title": "Stargazer",
+        "artist": "Cosmic Beats",
+        "album": "Galaxy Vibes",
+        "imageUrl": "assets/img/song.png",
+        "duration": "6:00"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Summer Hits 2026",
+    "creator": "Sunshine Records",
+    "imageUrl": "assets/img/playlist.png",
+    "songs": [
+      {
+        "id": 301,
+        "title": "Beach Party",
+        "artist": "The Tropicals",
+        "album": "Summer Anthems",
+        "imageUrl": "assets/img/song.png",
+        "duration": "3:30"
+      },
+      {
+        "id": 302,
+        "title": "Sunburn",
+        "artist": "Pop Stars United",
+        "album": "Hot Hits",
+        "imageUrl": "assets/img/song.png",
+        "duration": "3:15"
+      },
+      {
+        "id": 303,
+        "title": "Ice Cream Days",
+        "artist": "Sweet Melodies",
+        "album": "Summertime Fun",
+        "imageUrl": "assets/img/song.png",
+        "duration": "2:58"
+      },
+      {
+        "id": 304,
+        "title": "Festival Vibes",
+        "artist": "The Crowd Pleasers",
+        "album": "Live at Sunset",
+        "imageUrl": "assets/img/song.png",
+        "duration": "4:40"
+      },
+      {
+        "id": 305,
+        "title": "Road Trip",
+        "artist": "Freedom Riders",
+        "album": "Open Road",
+        "imageUrl": "assets/img/song.png",
+        "duration": "3:50"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Workout Energy",
+    "creator": "Fitness Beats",
+    "imageUrl": "assets/img/playlist.png",
+    "songs": [
+      {
+        "id": 401,
+        "title": "Push It Harder",
+        "artist": "Gym Motivation",
+        "album": "No Pain No Gain",
+        "imageUrl": "assets/img/song.png",
+        "duration": "3:25"
+      },
+      {
+        "id": 402,
+        "title": "Cardio Blast",
+        "artist": "High Energy Collective",
+        "album": "Burn Calories",
+        "imageUrl": "assets/img/song.png",
+        "duration": "3:40"
+      },
+      {
+        "id": 403,
+        "title": "Power Lift",
+        "artist": "Iron Beats",
+        "album": "Strength Training",
+        "imageUrl": "assets/img/song.png",
+        "duration": "4:05"
+      },
+      {
+        "id": 404,
+        "title": "Running Fast",
+        "artist": "Sprint Squad",
+        "album": "Marathon Madness",
+        "imageUrl": "assets/img/song.png",
+        "duration": "3:18"
+      },
+      {
+        "id": 405,
+        "title": "Victory Lap",
+        "artist": "Champion Sounds",
+        "album": "Winners Circle",
+        "imageUrl": "assets/img/song.png",
+        "duration": "3:55"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Jazz Lounge",
+    "creator": "Blue Note Collective",
+    "imageUrl": "assets/img/playlist.png",
+    "songs": [
+      {
+        "id": 501,
+        "title": "Smooth Saxophone",
+        "artist": "Jazz Masters",
+        "album": "Classic Jazz",
+        "imageUrl": "assets/img/song.png",
+        "duration": "5:45"
+      },
+      {
+        "id": 502,
+        "title": "Piano Noir",
+        "artist": "Midnight Pianist",
+        "album": "Black and White Keys",
+        "imageUrl": "assets/img/song.png",
+        "duration": "4:32"
+      },
+      {
+        "id": 503,
+        "title": "Trumpet Solo",
+        "artist": "Brass Ensemble",
+        "album": "Golden Horn",
+        "imageUrl": "assets/img/song.png",
+        "duration": "6:10"
+      },
+      {
+        "id": 504,
+        "title": "Uptown Swing",
+        "artist": "The Swing Band",
+        "album": "Big Band Era",
+        "imageUrl": "assets/img/song.png",
+        "duration": "4:20"
+      },
+      {
+        "id": 505,
+        "title": "Late Night Blues",
+        "artist": "Blues Brothers Modern",
+        "album": "Soul Kitchen",
+        "imageUrl": "assets/img/song.png",
+        "duration": "5:55"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Road Trip Mix",
+    "creator": "Highway Vibes",
+    "imageUrl": "assets/img/playlist.png",
+    "songs": [
+      {
+        "id": 601,
+        "title": "Open Highway",
+        "artist": "The Wanderers",
+        "album": "Journey",
+        "imageUrl": "assets/img/song.png",
+        "duration": "4:15"
+      },
+      {
+        "id": 602,
+        "title": "Desert Wind",
+        "artist": "Rock Nomads",
+        "album": "Dusty Roads",
+        "imageUrl": "assets/img/song.png",
+        "duration": "3:48"
+      },
+      {
+        "id": 603,
+        "title": "Mountain Drive",
+        "artist": "Scenic Routes",
+        "album": "Elevation",
+        "imageUrl": "assets/img/song.png",
+        "duration": "5:00"
+      },
+      {
+        "id": 604,
+        "title": "Coast to Coast",
+        "artist": "Road Warriors",
+        "album": "Cross Country",
+        "imageUrl": "assets/img/song.png",
+        "duration": "4:35"
+      },
+      {
+        "id": 605,
+        "title": "Sunset Boulevard",
+        "artist": "City Cruisers",
+        "album": "Urban Highways",
+        "imageUrl": "assets/img/song.png",
+        "duration": "3:52"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Study Focus",
+    "creator": "Academic Sounds",
+    "imageUrl": "assets/img/playlist.png",
+    "songs": [
+      {
+        "id": 701,
+        "title": "Deep Concentration",
+        "artist": "Focus Flow",
+        "album": "Brain Power",
+        "imageUrl": "assets/img/song.png",
+        "duration": "8:00"
+      },
+      {
+        "id": 702,
+        "title": "Ambient Study",
+        "artist": "White Noise Collective",
+        "album": "Productivity",
+        "imageUrl": "assets/img/song.png",
+        "duration": "10:00"
+      },
+      {
+        "id": 703,
+        "title": "Library Silence",
+        "artist": "Quiet Hours",
+        "album": "Concentration",
+        "imageUrl": "assets/img/song.png",
+        "duration": "7:30"
+      },
+      {
+        "id": 704,
+        "title": "Classical Study",
+        "artist": "Mozart Remixed",
+        "album": "Smart Sounds",
+        "imageUrl": "assets/img/song.png",
+        "duration": "6:45"
+      },
+      {
+        "id": 705,
+        "title": "Alpha Waves",
+        "artist": "Brainwave Beats",
+        "album": "Neural Focus",
+        "imageUrl": "assets/img/song.png",
+        "duration": "9:20"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Party Anthems",
+    "creator": "DJ Hype",
+    "imageUrl": "assets/img/playlist.png",
+    "songs": [
+      {
+        "id": 801,
+        "title": "Dance All Night",
+        "artist": "Party People",
+        "album": "Club Hits",
+        "imageUrl": "assets/img/song.png",
+        "duration": "3:35"
+      },
+      {
+        "id": 802,
+        "title": "Bass Drop",
+        "artist": "EDM Kings",
+        "album": "Rave Culture",
+        "imageUrl": "assets/img/song.png",
+        "duration": "4:20"
+      },
+      {
+        "id": 803,
+        "title": "Turn Up",
+        "artist": "Hype Squad",
+        "album": "Maximum Energy",
+        "imageUrl": "assets/img/song.png",
+        "duration": "3:42"
+      },
+      {
+        "id": 804,
+        "title": "Party Never Stops",
+        "artist": "Weekend Warriors",
+        "album": "Night Life",
+        "imageUrl": "assets/img/song.png",
+        "duration": "4:05"
+      },
+      {
+        "id": 805,
+        "title": "Celebration",
+        "artist": "Good Times Crew",
+        "album": "Party Mode",
+        "imageUrl": "assets/img/song.png",
+        "duration": "3:28"
+      }
+    ]
+  }
+]

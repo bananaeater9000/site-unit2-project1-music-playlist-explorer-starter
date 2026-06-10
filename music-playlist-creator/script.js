@@ -80,12 +80,17 @@ document.querySelector('.shuffle-button').onclick = function() {
 function toggleLike(event, button) {
     event.stopPropagation();
 
+    const songCountSpan = button.nextElementSibling;
+    let currentCount = parseInt(songCountSpan.innerText);
+
     if (button.classList.contains('liked')) {
         button.classList.remove('liked');
         button.innerText = '♡';
+        songCountSpan.innerText = currentCount - 1;
     } else {
         button.classList.add('liked');
         button.innerText = '♥';
+        songCountSpan.innerText = currentCount + 1;
     }
 }
 

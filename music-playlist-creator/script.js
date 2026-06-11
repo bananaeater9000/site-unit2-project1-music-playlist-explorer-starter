@@ -34,9 +34,6 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 
-// API Key - OpenRouter API
-const API_KEY = 'YOUR_API_KEY_HERE';
-
 // AI prompt constants
 const SYSTEM_PROMPT = 'You are a music curator who understands playlist vibes and themes. Generate a 2-3 sentence description that captures the mood and genre without listing individual songs. Avoid generic marketing language.';
 const FAILURE_MESSAGE = 'Description unavailable';

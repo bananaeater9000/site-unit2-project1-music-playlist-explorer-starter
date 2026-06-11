@@ -1,0 +1,9 @@
+# API Keys and sensitive configuration
+music-playlist-creator/config.js
+
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+.env.local

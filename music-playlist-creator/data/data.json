@@ -3,14 +3,14 @@
     "id": 1,
     "title": "Chill Vibes",
     "creator": "DJ Smooth",
-    "imageUrl": "assets/img/playlist.png",
+    "imageUrl": "https://picsum.photos/seed/playlist1/400/400",
     "songs": [
       {
         "id": 101,
         "title": "Sunset Dreams",
         "artist": "The Mellow Tones",
         "album": "Evening Breeze",
-        "imageUrl": "assets/img/song.png",
+        "imageUrl": "https://picsum.photos/seed/song1-1/300/300",
         "duration": "3:45"
       },
       {
@@ -18,7 +18,7 @@
         "title": "Coffee Shop Acoustic",
         "artist": "Indie Strings",
         "album": "Unplugged Sessions",
-        "imageUrl": "assets/img/song.png",
+        "imageUrl": "https://picsum.photos/seed/song1-2/300/300",
         "duration": "4:12"
       },
       {
@@ -26,7 +26,7 @@
         "title": "Rainy Day Jazz",
         "artist": "The Smooth Quartet",
         "album": "Blue Notes",
-        "imageUrl": "assets/img/song.png",
+        "imageUrl": "https://picsum.photos/seed/song1-3/300/300",
         "duration": "5:20"
       },
       {
@@ -34,7 +34,7 @@
         "title": "Midnight Lo-Fi",
         "artist": "Beat Maker 3000",
         "album": "Chill Beats Vol. 2",
-        "imageUrl": "assets/img/song.png",
+        "imageUrl": "https://picsum.photos/seed/song1-4/300/300",
         "duration": "3:58"
       },
       {
@@ -42,7 +42,7 @@
         "title": "Ocean Waves",
         "artist": "Nature Sounds Collective",
         "album": "Ambient Dreams",
-        "imageUrl": "assets/img/song.png",
+        "imageUrl": "https://picsum.photos/seed/song1-5/300/300",
         "duration": "6:30"
       }
     ]
@@ -51,14 +51,14 @@
     "id": 2,
     "title": "Late Night Beats",
     "creator": "The Night Owl",
-    "imageUrl": "assets/img/playlist.png",
+    "imageUrl": "https://picsum.photos/seed/playlist2/400/400",
     "songs": [
       {
         "id": 201,
         "title": "After Hours",
         "artist": "DJ Nocturnal",
         "album": "Night Shift",
-        "imageUrl": "assets/img/song.png",
+        "imageUrl": "https://picsum.photos/seed/song2-1/300/300",
         "duration": "4:22"
       },
       {
@@ -66,7 +66,7 @@
         "title": "City Lights",
         "artist": "Urban Soundscape",
         "album": "Metropolitan",
-        "imageUrl": "assets/img/song.png",
+        "imageUrl": "https://picsum.photos/seed/song2-2/300/300",
         "duration": "3:55"
       },
       {
@@ -74,7 +74,7 @@
         "title": "Dark Electro",
         "artist": "Synth Masters",
         "album": "Neon Nights",
-        "imageUrl": "assets/img/song.png",
+        "imageUrl": "https://picsum.photos/seed/song2-3/300/300",
         "duration": "5:10"
       },
       {
@@ -82,7 +82,7 @@
         "title": "Moonlight Groove",
         "artist": "The Night Riders",
         "album": "Lunar Eclipse",
-        "imageUrl": "assets/img/song.png",
+        "imageUrl": "https://picsum.photos/seed/song2-4/300/300",
         "duration": "4:45"
       },
       {
@@ -90,7 +90,7 @@
         "title": "Stargazer",
         "artist": "Cosmic Beats",
         "album": "Galaxy Vibes",
-        "imageUrl": "assets/img/song.png",
+        "imageUrl": "https://picsum.photos/seed/song2-5/300/300",
         "duration": "6:00"
       }
     ]
@@ -99,14 +99,14 @@
     "id": 3,
     "title": "Summer Hits 2026",
     "creator": "Sunshine Records",
-    "imageUrl": "assets/img/playlist.png",
+    "imageUrl": "https://picsum.photos/seed/playlist3/400/400",
     "songs": [
       {
         "id": 301,
         "title": "Beach Party",
         "artist": "The Tropicals",
         "album": "Summer Anthems",
-        "imageUrl": "assets/img/song.png",
+        "imageUrl": "https://picsum.photos/seed/song3-1/300/300",
         "duration": "3:30"
       },
       {
@@ -114,7 +114,7 @@
         "title": "Sunburn",
         "artist": "Pop Stars United",
         "album": "Hot Hits",
-        "imageUrl": "assets/img/song.png",
+        "imageUrl": "https://picsum.photos/seed/song3-2/300/300",
         "duration": "3:15"
       },
       {
@@ -122,7 +122,7 @@
         "title": "Ice Cream Days",
         "artist": "Sweet Melodies",
         "album": "Summertime Fun",
-        "imageUrl": "assets/img/song.png",
+        "imageUrl": "https://picsum.photos/seed/song3-3/300/300",
         "duration": "2:58"
       },
       {
@@ -130,7 +130,7 @@
         "title": "Festival Vibes",
         "artist": "The Crowd Pleasers",
         "album": "Live at Sunset",
-        "imageUrl": "assets/img/song.png",
+        "imageUrl": "https://picsum.photos/seed/song3-4/300/300",
         "duration": "4:40"
       },
       {
@@ -138,7 +138,7 @@
         "title": "Road Trip",
         "artist": "Freedom Riders",
         "album": "Open Road",
-        "imageUrl": "assets/img/song.png",
+        "imageUrl": "https://picsum.photos/seed/song3-5/300/300",
         "duration": "3:50"
       }
     ]
@@ -147,14 +147,14 @@
     "id": 4,
     "title": "Workout Energy",
     "creator": "Fitness Beats",
-    "imageUrl": "assets/img/playlist.png",
+    "imageUrl": "https://picsum.photos/seed/playlist4/400/400",
     "songs": [
       {
         "id": 401,
         "title": "Push It Harder",
         "artist": "Gym Motivation",
         "album": "No Pain No Gain",
-        "imageUrl": "assets/img/song.png",
+        "imageUrl": "https://picsum.photos/seed/song4-1/300/300",
         "duration": "3:25"
       },
       {
@@ -162,7 +162,7 @@
         "title": "Cardio Blast",
         "artist": "High Energy Collective",
         "album": "Burn Calories",
-        "imageUrl": "assets/img/song.png",
+        "imageUrl": "https://picsum.photos/seed/song4-2/300/300",
         "duration": "3:40"
       },
       {
@@ -170,7 +170,7 @@
         "title": "Power Lift",
         "artist": "Iron Beats",
         "album": "Strength Training",
-        "imageUrl": "assets/img/song.png",
+        "imageUrl": "https://picsum.photos/seed/song4-3/300/300",
         "duration": "4:05"
       },
       {
@@ -178,7 +178,7 @@
         "title": "Running Fast",
         "artist": "Sprint Squad",
         "album": "Marathon Madness",
-        "imageUrl": "assets/img/song.png",
+        "imageUrl": "https://picsum.photos/seed/song4-4/300/300",
         "duration": "3:18"
       },
       {
@@ -186,7 +186,7 @@
         "title": "Victory Lap",
         "artist": "Champion Sounds",
         "album": "Winners Circle",
-        "imageUrl": "assets/img/song.png",
+        "imageUrl": "https://picsum.photos/seed/song4-5/300/300",
         "duration": "3:55"
       }
     ]
@@ -195,14 +195,14 @@
     "id": 5,
     "title": "Jazz Lounge",
     "creator": "Blue Note Collective",
-    "imageUrl": "assets/img/playlist.png",
+    "imageUrl": "https://picsum.photos/seed/playlist5/400/400",
     "songs": [
       {
         "id": 501,
         "title": "Smooth Saxophone",
         "artist": "Jazz Masters",
         "album": "Classic Jazz",
-        "imageUrl": "assets/img/song.png",
+        "imageUrl": "https://picsum.photos/seed/song5-1/300/300",
         "duration": "5:45"
       },
       {
@@ -210,7 +210,7 @@
         "title": "Piano Noir",
         "artist": "Midnight Pianist",
         "album": "Black and White Keys",
-        "imageUrl": "assets/img/song.png",
+        "imageUrl": "https://picsum.photos/seed/song5-2/300/300",
         "duration": "4:32"
       },
       {
@@ -218,7 +218,7 @@
         "title": "Trumpet Solo",
         "artist": "Brass Ensemble",
         "album": "Golden Horn",
-        "imageUrl": "assets/img/song.png",
+        "imageUrl": "https://picsum.photos/seed/song5-3/300/300",
         "duration": "6:10"
       },
       {
@@ -226,7 +226,7 @@
         "title": "Uptown Swing",
         "artist": "The Swing Band",
         "album": "Big Band Era",
-        "imageUrl": "assets/img/song.png",
+        "imageUrl": "https://picsum.photos/seed/song5-4/300/300",
         "duration": "4:20"
       },
       {
@@ -234,7 +234,7 @@
         "title": "Late Night Blues",
         "artist": "Blues Brothers Modern",
         "album": "Soul Kitchen",
-        "imageUrl": "assets/img/song.png",
+        "imageUrl": "https://picsum.photos/seed/song5-5/300/300",
         "duration": "5:55"
       }
     ]
@@ -243,14 +243,14 @@
     "id": 6,
     "title": "Road Trip Mix",
     "creator": "Highway Vibes",
-    "imageUrl": "assets/img/playlist.png",
+    "imageUrl": "https://picsum.photos/seed/playlist6/400/400",
     "songs": [
       {
         "id": 601,
         "title": "Open Highway",
         "artist": "The Wanderers",
         "album": "Journey",
-        "imageUrl": "assets/img/song.png",
+        "imageUrl": "https://picsum.photos/seed/song6-1/300/300",
         "duration": "4:15"
       },
       {
@@ -258,7 +258,7 @@
         "title": "Desert Wind",
         "artist": "Rock Nomads",
         "album": "Dusty Roads",
-        "imageUrl": "assets/img/song.png",
+        "imageUrl": "https://picsum.photos/seed/song6-2/300/300",
         "duration": "3:48"
       },
       {
@@ -266,7 +266,7 @@
         "title": "Mountain Drive",
         "artist": "Scenic Routes",
         "album": "Elevation",
-        "imageUrl": "assets/img/song.png",
+        "imageUrl": "https://picsum.photos/seed/song6-3/300/300",
         "duration": "5:00"
       },
       {
@@ -274,7 +274,7 @@
         "title": "Coast to Coast",
         "artist": "Road Warriors",
         "album": "Cross Country",
-        "imageUrl": "assets/img/song.png",
+        "imageUrl": "https://picsum.photos/seed/song6-4/300/300",
         "duration": "4:35"
       },
       {
@@ -282,7 +282,7 @@
         "title": "Sunset Boulevard",
         "artist": "City Cruisers",
         "album": "Urban Highways",
-        "imageUrl": "assets/img/song.png",
+        "imageUrl": "https://picsum.photos/seed/song6-5/300/300",
         "duration": "3:52"
       }
     ]
@@ -291,14 +291,14 @@
     "id": 7,
     "title": "Study Focus",
     "creator": "Academic Sounds",
-    "imageUrl": "assets/img/playlist.png",
+    "imageUrl": "https://picsum.photos/seed/playlist7/400/400",
     "songs": [
       {
         "id": 701,
         "title": "Deep Concentration",
         "artist": "Focus Flow",
         "album": "Brain Power",
-        "imageUrl": "assets/img/song.png",
+        "imageUrl": "https://picsum.photos/seed/song7-1/300/300",
         "duration": "8:00"
       },
       {
@@ -306,7 +306,7 @@
         "title": "Ambient Study",
         "artist": "White Noise Collective",
         "album": "Productivity",
-        "imageUrl": "assets/img/song.png",
+        "imageUrl": "https://picsum.photos/seed/song7-2/300/300",
         "duration": "10:00"
       },
       {
@@ -314,7 +314,7 @@
         "title": "Library Silence",
         "artist": "Quiet Hours",
         "album": "Concentration",
-        "imageUrl": "assets/img/song.png",
+        "imageUrl": "https://picsum.photos/seed/song7-3/300/300",
         "duration": "7:30"
       },
       {
@@ -322,7 +322,7 @@
         "title": "Classical Study",
         "artist": "Mozart Remixed",
         "album": "Smart Sounds",
-        "imageUrl": "assets/img/song.png",
+        "imageUrl": "https://picsum.photos/seed/song7-4/300/300",
         "duration": "6:45"
       },
       {
@@ -330,7 +330,7 @@
         "title": "Alpha Waves",
         "artist": "Brainwave Beats",
         "album": "Neural Focus",
-        "imageUrl": "assets/img/song.png",
+        "imageUrl": "https://picsum.photos/seed/song7-5/300/300",
         "duration": "9:20"
       }
     ]
@@ -339,14 +339,14 @@
     "id": 8,
     "title": "Party Anthems",
     "creator": "DJ Hype",
-    "imageUrl": "assets/img/playlist.png",
+    "imageUrl": "https://picsum.photos/seed/playlist8/400/400",
     "songs": [
       {
         "id": 801,
         "title": "Dance All Night",
         "artist": "Party People",
         "album": "Club Hits",
-        "imageUrl": "assets/img/song.png",
+        "imageUrl": "https://picsum.photos/seed/song8-1/300/300",
         "duration": "3:35"
       },
       {
@@ -354,7 +354,7 @@
         "title": "Bass Drop",
         "artist": "EDM Kings",
         "album": "Rave Culture",
-        "imageUrl": "assets/img/song.png",
+        "imageUrl": "https://picsum.photos/seed/song8-2/300/300",
         "duration": "4:20"
       },
       {
@@ -362,7 +362,7 @@
         "title": "Turn Up",
         "artist": "Hype Squad",
         "album": "Maximum Energy",
-        "imageUrl": "assets/img/song.png",
+        "imageUrl": "https://picsum.photos/seed/song8-3/300/300",
         "duration": "3:42"
       },
       {
@@ -370,7 +370,7 @@
         "title": "Party Never Stops",
         "artist": "Weekend Warriors",
         "album": "Night Life",
-        "imageUrl": "assets/img/song.png",
+        "imageUrl": "https://picsum.photos/seed/song8-4/300/300",
         "duration": "4:05"
       },
       {
@@ -378,7 +378,7 @@
         "title": "Celebration",
         "artist": "Good Times Crew",
         "album": "Party Mode",
-        "imageUrl": "assets/img/song.png",
+        "imageUrl": "https://picsum.photos/seed/song8-5/300/300",
         "duration": "3:28"
       }
     ]

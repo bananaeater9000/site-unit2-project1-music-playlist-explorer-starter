@@ -16,19 +16,67 @@
 <body>
     <header>
         <h1>Music Playlist Explorer</h1>
-        <div class="hamburger-menu">
-            <span class="hamburger-line"></span>
-            <span class="hamburger-line"></span>
-            <span class="hamburger-line"></span>
-        </div>
+        <button class="dark-mode-toggle" onclick="toggleDarkMode()" aria-label="Toggle dark mode">
+            <svg class="vinyl-icon" viewBox="0 0 100 100" width="30" height="30">
+                <circle cx="50" cy="50" r="45" fill="currentColor"/>
+                <circle cx="50" cy="50" r="35" fill="var(--bg-color)"/>
+                <circle cx="50" cy="50" r="15" fill="currentColor"/>
+                <circle cx="50" cy="50" r="5" fill="var(--bg-color)"/>
+            </svg>
+        </button>
     </header>
 
+    <nav class="side-nav">
+        <button class="nav-button active" onclick="showPage('featured')">Featured</button>
+        <button class="nav-button" onclick="showPage('all-playlists')">All Playlists</button>
+        <button class="nav-button add-playlist-nav-button" onclick="openAddPlaylistModal()">+ Add Playlist</button>
+    </nav>
+
     <main>
-        <div id="playlist-gallery">
-            <div class="playlist-cards">
-                <!-- Playlist cards will be dynamically loaded from data.json -->
+        <!-- Featured Page -->
+        <section id="featured-page" class="page-content active">
+            <div class="featured-container">
+                <div class="featured-playlist-image">
+                    <img id="featured-image" src="assets/img/playlist.png" alt="Featured playlist" onerror="this.src='https://via.placeholder.com/500x500/357a6a/e8ddd2?text=Featured+Playlist'">
+                    <div class="featured-playlist-info">
+                        <h2 id="featured-title">Loading Featured Playlist...</h2>
+                        <p id="featured-creator">Please wait</p>
+                        <p id="featured-song-count">0 songs</p>
+                        <div class="featured-actions">
+                            <button class="play-now-button">Play Now</button>
+                            <button class="featured-shuffle-button">Shuffle</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="featured-songs">
+                    <h3>Songs</h3>
+                    <div class="featured-song-list">
+                        <!-- Songs will be dynamically loaded -->
+                    </div>
+                </div>
             </div>
-        </div>
+        </section>
+
+        <!-- All Playlists Page -->
+        <section id="all-playlists-page" class="page-content">
+            <div id="playlist-gallery">
+                <div class="playlist-controls">
+                    <input type="text" id="search-bar" class="search-bar" placeholder="Search playlists by name or author...">
+                    <div class="sort-controls">
+                        <label for="sort-select">Sort by:</label>
+                        <select id="sort-select" class="sort-select">
+                            <option value="default">Default</option>
+                            <option value="name">Name (A-Z)</option>
+                            <option value="likes">Most Liked</option>
+                            <option value="songs">Song Count</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="playlist-cards">
+                    <!-- Playlist cards will be dynamically loaded from data.json -->
+                </div>
+            </div>
+        </section>
     </main>
 
     <div class="modal-overlay" id="modal-overlay">
@@ -46,9 +94,50 @@
             </div>
 
             <div class="modal-body">
+                <div class="ai-description-section">
+                    <button class="get-description-button">Get AI Description</button>
+                    <p class="ai-description-text"></p>
+                </div>
                 <div class="song-list">
                     <!-- Songs will be dynamically loaded when modal opens -->
                 </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Add/Edit Playlist Modal -->
+    <div class="modal-overlay" id="add-edit-modal">
+        <div class="modal-content add-edit-modal-content">
+            <button class="close-button" onclick="closeAddEditModal()">&times;</button>
+            <div class="modal-header">
+                <h2 id="add-edit-modal-title">Add New Playlist</h2>
+            </div>
+            <div class="modal-body">
+                <form id="playlist-form">
+                    <div class="form-group">
+                        <label for="playlist-name">Playlist Name:</label>
+                        <input type="text" id="playlist-name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="playlist-creator">Creator/Author:</label>
+                        <input type="text" id="playlist-creator" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="playlist-image-url">Image URL:</label>
+                        <input type="text" id="playlist-image-url" placeholder="https://example.com/image.jpg">
+                    </div>
+
+                    <h3>Songs</h3>
+                    <div id="songs-container">
+                        <!-- Song inputs will be added dynamically -->
+                    </div>
+                    <button type="button" class="add-song-button" onclick="addSongInput()">+ Add Song</button>
+
+                    <div class="form-actions">
+                        <button type="submit" class="submit-button">Save Playlist</button>
+                        <button type="button" class="cancel-button" onclick="closeAddEditModal()">Cancel</button>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
